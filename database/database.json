@@ -1,0 +1,13 @@
+{
+    "databaseConfig": {
+
+    },
+
+    "collections": [{
+        "donor":[ {
+            "": ""
+        }]
+    }]
+
+
+}

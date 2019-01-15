@@ -23,7 +23,10 @@ const firebaseconfig =  {
     messagingSenderId: "794170287647"
   };
  const firebase = require('firebase');
+ require("firebase/firestore");
+ 
  const firebaseInit = firebase.initializeApp(firebaseconfig);
 
  module.exports.Firebase = firebaseInit; 
  module.exports.FirebaseAuth = require('./auth.firebase').FirebaseAuth;
+ module.exports.Firestore = require('./firestore.firebase').Firestore;

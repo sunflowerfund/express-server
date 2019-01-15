@@ -7,8 +7,11 @@
  * Module that will monitor how you navigate through the app/site
  */
 
+class country{
+    constructor ( code, name ){
+        this.name = name;
+        this.code = code;
+    }
+}
 
-module.exports.express =  require('express');
-module.exports.bodyParser = require('body-parser');
-module.exports.Auth = require('./server/auth').Auth;
-module.exports.Store = require('./server/firestore').Store;
+module.exports.Country = country;
